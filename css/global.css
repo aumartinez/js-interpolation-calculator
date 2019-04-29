@@ -1,1 +1,7 @@
 /*Global CSS*/
+
+.col-center{
+  clear:both;
+  float:none;
+  margin:auto;
+}
