@@ -1,5 +1,14 @@
 /*Global CSS*/
 
+.jumbotron {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+h1 {
+  font-size: 42px;
+}
+
 .col-center {
   clear: both;
   float: none;
