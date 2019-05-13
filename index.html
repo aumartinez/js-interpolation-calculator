@@ -12,6 +12,9 @@
   <!--js scripts-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <!--my script-->
+  <script src="js/action.js"></script>
 </head>
 <body>
 
@@ -22,22 +25,62 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-xs-6 col-center">
+		<div class="col-md-4 col-center">
 			<form id="theForm" name="theForm" method="get" action="#">
-				<table class="table">
+				<table class="table-hover table-calc">
 					<tbody>
 						<tr>
 							<td>
-								Table contents
+								<span class="sr-only">Image here</span>
+								<img src="img/interpolation.png" class="img-responsive" />
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								(X0, Y0) 
+								<input class="coord-val" type="text" id="px0" placeholder="X0..." value="" />
+								<input class="coord-val" type="text" id="py0" placeholder="Y0..." value="" />
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								(X1, Y1) 
+								<input class="coord-val" type="text" id="px1" placeholder="X1..." value="" />
+								<input class="coord-val" type="text" id="py1" placeholder="Y1..." value="" />
+							</td>
+						</tr>
+                        
+                        <tr>
+							<td>
+								(X) 
+								<input class="coord-val" type="text" id="px" placeholder="X..." value="" />								
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								<button type="button" id="action-btn" class="right">Calculate Y</button>
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								<input class="result-val right" type="text" id="result" placeholder="Result here..." value="" />
 							</td>
 						</tr>
 						
 						<tr class="hidden">
-							<td><input type="submit" class="hidden" /></td>
+							<td>
+								<input type="submit" class="hidden" />
+							</td>
 						</tr>
 					</tbody>
 				</table>
 			</form>
+			<br />
+			<br />
 		</div>
 	</div>
 </div>
