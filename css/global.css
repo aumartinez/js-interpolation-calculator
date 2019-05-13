@@ -1,7 +1,24 @@
 /*Global CSS*/
 
-.col-center{
-  clear:both;
-  float:none;
-  margin:auto;
+.col-center {
+  clear: both;
+  float: none;
+  margin: auto;
+}
+
+.table-calc tr{
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+
+.coord-val {
+  width: 45px;
+}
+
+.right {
+  float: right;
+}
+
+.result-val{
+  margin-bottom: 5px;  
 }
