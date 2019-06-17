@@ -7,7 +7,7 @@ function run(){
   elem.addEventListener("click", calculateValues, false);
 }
 
-function calculateValues(){
+function interpolate(){
   let X0;
   let Y0;
   let X1;
