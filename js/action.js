@@ -4,7 +4,7 @@ function run(){
   let elem;
   
   elem = document.getElementById("action-btn");
-  elem.addEventListener("click", calculateValues, false);
+  elem.addEventListener("click", function(){ interpolate();}, false);
 }
 
 function interpolate(){
